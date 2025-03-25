@@ -1,3 +1,4 @@
+@section('`title', 'SD Muhammadiyah 10 Medan')
 <header class="masthead">
     <div class="container ">
       <div class="row  d-flex ">
