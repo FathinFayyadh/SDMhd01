@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class homecontroller extends Controller
 {
     public function home(){
-        return view('home.tamplate');
+        return view('home.content-home');
     }
     Public function aboute(){
         return view('home.aboute');
@@ -15,5 +15,7 @@ class homecontroller extends Controller
     Public function fasilitas(){
         return view('home.fasilitas');
     }
-    
+    public function contact(){
+        return view('home.contact-me');
+    }
 }

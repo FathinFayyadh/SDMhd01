@@ -30,7 +30,7 @@
                     <a class="nav-link me-lg-3" href="#Program">Program</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-lg-3" href="#Fasilitas SD">Fasilitas SD</a>
+                    <a class="nav-link me-lg-3" href="{{ route('fasilitas') }}">Fasilitas SD</a>
                 </li>
                 <li class="nav-item my-2 my-lg-0">
                     <a class="nav-link me-lg-3" href="#contact">Kontak Kami</a>

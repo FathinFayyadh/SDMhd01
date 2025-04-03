@@ -29,7 +29,6 @@
     @include('home.navbar')
     <!--End-Navbar-->
     <!-- Content-->
-    @include('home.content-home')
     @yield('content')
     <!--End-Content-->
     </section>
