@@ -1,30 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>@yield('title' , 'SD Muhammadiyah 10 Medan')
-    </title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('landingpage/assets/img/icon-muhamdiuah.jpg') }}" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="{{ asset('landingpage/css/styles.css') }}"rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Estudy-Online Education Learning & LMS HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('siswa/assets/images/fav-icon/icon.png') }}">
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/bootstrap.min.css') }}" type="text/css" media="all">
+    <!-- carousel CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/owl.carousel.min.css') }}" type="text/css" media="all">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/animate.css') }}" type="text/css" media="all">
+    <!-- font-awesome CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/all.min.css') }}" type="text/css" media="all">
+    <!-- font-flaticon CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/flaticon.css') }}" type="text/css" media="all">
+    <!-- theme-default CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/theme-default.css') }}" type="text/css" media="all">
+    <!-- meanmenu CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/meanmenu.min.css') }}" type="text/css" media="all">
+    <!-- transitions CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/owl.transitions.css') }}" type="text/css" media="all">
+    <!-- venobox CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/venobox/venobox.css') }}" type="text/css" media="all">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/bootstrap-icons.css') }}" type="text/css" media="all">
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/style.css') }}" type="text/css" media="all">
+    <!-- Dropdown CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/dropdown.css') }}" type="text/css" media="all">
+    <!-- responsive CSS -->
+    <link rel="stylesheet" href="{{ asset('siswa/assets/css/responsive.css') }}" type="text/css" media="all">
+    <!-- modernizr js -->
+    <script src="{{ asset('/assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
 </head>
 
-<body id="page-top">
+<body>
+
     <!-- Navbar-->
     @include('home.navbar')
     <!--End-Navbar-->
@@ -35,18 +51,66 @@
     <!-- Footer-->
     @include('home.footer')
     <!--End-Foother-->
-    <audio>
-        <source src="assets/audio/Pagiku-Cerahku.mp4" />
-    </audio>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="landingpage/js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <!-- jquery js -->
+    <script src="{{ asset('siswa/assets/js/vendor/jquery-3.6.2.min.js') }}"></script>
+
+    <script src="{{ asset('siswa/assets/js/popper.min.js') }}"></script>
+
+    <!-- bootstrap js -->
+    <script src="{{ asset('siswa/assets/js/bootstrap.min.js') }}"></script>
+
+    <!-- carousel js -->
+    <script src="{{ asset('siswa/assets/js/owl.carousel.min.js') }}"></script>
+
+    <!-- counterup js -->
+    <script src="{{ asset('siswa/assets/js/jquery.counterup.min.js') }}"></script>
+
+    <!-- waypoints js -->
+    <script src="{{ asset('siswa/assets/js/waypoints.min.js') }}"></script>
+
+    <!-- wow js -->
+    <script src="{{ asset('siswa/assets/js/wow.min.js') }}"></script>
+
+    <!-- imagesloaded js -->
+    <script src="{{ asset('siswa/assets/js/imagesloaded.pkgd.min.js') }}"></script>
+
+    <!-- venobox js -->
+    <script src="{{ asset('siswa/venobox/venobox.js') }}"></script>
+
+    <!--  animated-text js -->
+    <script src="{{ asset('siswa/assets/js/animated-text.js') }}"></script>
+
+    <!-- venobox min js -->
+    <script src="{{ asset('siswa/venobox/venobox.min.js') }}"></script>
+
+    <!-- isotope js -->
+    <script src="{{ asset('siswa/assets/js/isotope.pkgd.min.js') }}"></script>
+
+    <!-- jquery meanmenu js -->
+    <script src="{{ asset('siswa/assets/js/jquery.meanmenu.js') }}"></script>
+
+    <!-- jquery scrollup js -->
+    <script src="{{ asset('siswa/assets/js/jquery.scrollUp.js') }}"></script>
+
+    <!-- Slick Slider -->
+    <script src="{{ asset('siswa/assets/slick/slick.min.js') }}"></script>
+
+    <script src="{{ asset('siswa/assets/js/jquery.barfiller.js') }}"></script>
+    <!-- jquery js -->
+
+    <!-- ragrslider js -->
+    <script src="{{ asset('siswa/assets/js/rangeslider.js') }}"></script>
+
+    <!-- ragrslider js -->
+    <script src="{{ asset('siswa/assets/js/mixitup.min.js') }}"></script>
+
+    <!-- theme js -->
+    <script src="{{ asset('siswa/assets/js/theme.js') }}"></script>
+
+    <!-- scroll js -->
+    <script src="{{ asset('siswa/assets/js/script.js') }}"></script>
+
 </body>
 
 </html>
